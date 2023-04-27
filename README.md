@@ -81,6 +81,10 @@ Open your Discord server's settings and go to AutoMod.
 
 ![Finding Discord AutoMod](./img/step1.png)
 
-Once there, add an AutoMod rule for blocking markdown, then enter each regex pattern on its own line.
+Once there, add an AutoMod rule for blocking markdown, then enter each regex pattern on its own line.  Be sure to exclude your moderator role from the rule!
+1. Name the rule.
+2. Expand "Use regex patterns for advanced matching (optional) and put each regex on its own line.
+3. Set the rule to only block the message.
+4. Exclude your moderator role(s).
 
 ![Setup the rule](./img/step2.png)
